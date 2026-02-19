@@ -1,0 +1,54 @@
+Q1- Awad distinguishes between different “types” of AI. What classification scheme does the paper
+use and why do these types matter for scientific research?
+
+Awad emphasizes that AI should not be thought of as a single, unified technology. Treating AI as one monolithic tool hides important differences in how various systems actually function within scientific research.
+Instead, the paper uses a functional epistemic classification scheme, where different types of AI are grouped based on the kinds of scientific tasks they perform and how they contribute to producing knowledge.
+
+The main categories include predictive AI, which focuses on forecasting and modeling outcomes; descriptive AI, which helps uncover patterns and interpret data; and generative AI, which can create new data, representations, or even hypotheses.
+The paper also discusses optimization AI for improving experimental design, causal and explainable AI for understanding cause and effect relationships and making black-box models more transparent, as well as privacy-aware AI.
+Finally, Awad introduces meta-scientific AI, which operates on the scientific process itself rather than on individual research tasks.
+
+These distinctions matter because each type of AI plays a different role in scientific knowledge production. Some systems help scientists recognize patterns in data, others make predictions about future outcomes, and others begin to propose explanations or hypotheses.
+Awad argues that recognizing these differences is crucial for deciding how much authority and trust to place in AI-generated results, and for understanding who should be held responsible for scientific claims that involve AI.
+
+---
+Q2- Does Awad make a clear distinction between AI as a tool and AI as a scientific collaborator? If so,
+what are the differences and what are some examples given to support the differences? Do these
+examples suggest a real shift in how science is conducted, or mostly an extension of existing
+methods?
+
+The paper draws a clear line between AI as a tool and AI as a collaborator. When AI is used as a tool, it mainly supports existing scientific work, such as predicting climate patterns, summarizing literature, or optimizing experiments.
+In these situations, AI makes research more efficient, but humans remain in control.
+
+AI starts to act more like a collaborator when it can generate hypotheses, help design experiments, or operate with some autonomy. Awad highlights this in her discussion of meta-scientific AI, using examples like Google Co-Scientist and multi-agent LLM systems.
+She sees this as a meaningful shift, though not a complete departure from current methods. Rather, it suggests that AI is beginning to play a role in theory formation and discovery, which raises new questions about authorship and responsibility in science.
+
+---
+Q3- What are some limitations or risks of using AI in science? How do these relate to issues such as
+interpretability, bias, reproducibility, or theory formation?
+
+One thing the paper makes clear is that AI should not be treated as purely positive or risk-free. Awad points out several limitations that scientists need to take seriously.
+
+One major concern is interpretability. Many powerful AI systems, especially deep learning models and large language models, operate as “black boxes,” which makes it hard to explain or justify their results.
+This becomes a problem in science, where claims are expected to be transparent and accountable. Because of this, Awad emphasizes the importance of causal and explainable AI as a way to maintain scientific responsibility.
+
+Another risk is bias. Descriptive and generative models, particularly NLP systems, often reflect the biases present in their training data.
+This is especially concerning in fields like social science and biomedicine, where biased outputs can influence interpretations and lead to distorted or unfair conclusions.
+
+Reproducibility is also an issue. Many AI systems are proprietary, and their training processes are often opaque.
+When researchers cannot access model details, data sources, or reasoning steps, it becomes difficult to reproduce results, which weakens one of the core norms of scientific research.
+
+Finally, Awad raises concerns about theory formation. AI-driven discoveries may produce useful or accurate results without offering a clear theoretical explanation.
+When insights come mainly from statistical patterns rather than underlying theory, scientists are left questioning whether genuine understanding is being created or whether the system is simply identifying correlations.
+
+---
+Q4- According to Awad’s arguments, is AI more likely to accelerate scientific discovery or to reshape
+the scientific method itself? Do you agree or disagree?
+
+Awad’s answer is both, but reshaping is the deeper change.
+While AI clearly accelerates discovery by speeding up modeling, simulation, and data analysis, she argues that its more profound impact lies in changing how scientific knowledge is produced and validated.
+The increasing role of AI in hypothesis generation, causal reasoning, and experimental design suggests a shift in the epistemic foundations of science, not just its tools.
+
+I mostly agree with Awad here. At the moment, AI feels like it’s mainly speeding things up, faster analysis, faster simulations, faster results. But where things seem to be heading is more than just efficiency.
+As AI systems start taking on tasks like proposing hypotheses or guiding experiments on their own, they’re beginning to change how science is actually done.
+The tricky part will be making sure that this speed doesn’t come at the expense of understanding what’s going on, who’s responsible for the results, and whether we can really trust AI generated knowledge.
