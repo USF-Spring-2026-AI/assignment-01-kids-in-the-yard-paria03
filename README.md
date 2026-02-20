@@ -1,3 +1,33 @@
 # AI Assignment 01 - Kids in the Yard
 
-See assignment details on Canvas.
+### ● Which tool(s) did you use?
+Chat GPT
+
+---
+### ● If you used an LLM, what was your prompt to the LLM?
+"Here is my project. do it completely and complete all the requirements. follow the design pattern and only do the coding part and not the reflection and comparison. I want a full running program."
+I also asked for a simpler code later.
+
+---
+### ● What differences are there between your implementation and the LLM?
+There are a lot of differences. the Ai just makes stuff much complicated when you ask for the whole project. but if you ask for smaller portions, it will work better.
+Since it has access to all information and libraries, it can use advance code and uses more libraries that I don't know yet.
+But I think we can achieve the same output and result with less code.
+there were also some misunderstanding from the project spec and I had to explain it clearly.
+
+---
+### ● What changes would you make to your implementation in general based on suggestions from the
+LLM?
+One thing that the LLm mentioned was to have a flag to check if we have assigned children to a person. previously I was checking the length of the children array and
+if it was zero, I would create children, but it was wrong since a person can have 0 children and this would continue until that person gets children. 
+
+my implementation and the LLM’s approach differ mainly in overall style and problem solving logic rather than functionality. 
+I chose a more straightforward, beginner friendly design that closely follows the assignment description, using simple classes, explicit getters and setters, and storing CSV data as lists of rows that are scanned when needed. 
+this made the logic easier for me to understand and debug step by step. The LLM’s approach focuses more on preprocessing data into dictionaries, adding additional helper functions, and enforcing stricter guard rules, which results in more defensive and abstract code. 
+while this style can be more robust and efficient, I found it harder to follow and unnecessarily complex for my level of comfort with Python, so I decided not to adopt those changes and kept my original implementation.
+
+---
+### ● What changes would you refuse to make?
+there were so much redundancy in the LLM code. it had different methods for reading each csv files in the simpler version that I asked for. 
+it also had  parent id for each person for deciding the last name, which I found unnecessary since all children and grand children are considered direct descendants of the founders.
+and that we would choose lastnames for partners based on the frequencies.  
