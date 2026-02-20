@@ -6,7 +6,17 @@ Total number of people in the tree by (D)ecade
 (N)ames duplicated
 (Q)uit
 > """
+
+
 def main():
+    """
+        Main entry point of the program.
+
+        This function:
+        Creates a FamilyTree object
+        Generates the family tree starting from the initial founders
+        Displays a menu that allows the user to query information about the generated family tree
+    """
     print("Reading files...")
     tree = FamilyTree()
     print("Generating family tree...")

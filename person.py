@@ -1,4 +1,12 @@
+
 class Person:
+    """
+        Represents a single person in the family tree.
+
+        A Person stores basic personal information such as name, gender,
+        birth and death year, as well as family relationships including
+        partner and children. This class is mainly used as a data container.
+    """
     def __init__(self, name, last_name, gender,year_born, year_died=None):
         self.name = name
         self.last_name=last_name
