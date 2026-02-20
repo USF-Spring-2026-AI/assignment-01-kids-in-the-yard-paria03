@@ -27,7 +27,7 @@ class FamilyTree:
             person = family_q.get()
             if person.get_year_born() > 2120:
                 break
-            if len (person.get_children()) != 0:#if already has children, then don't create again
+            if person.children_created:#if already has children, then don't create again
                 continue
             elder_parent = person.year_born
             if person.get_partner() is None:
@@ -44,6 +44,7 @@ class FamilyTree:
             years=factory.child_birth_years(elder_parent, children_num)
             children=factory.create_children(children_num, years)
             person.set_children(children)
+            person.set_children_created=True
             if person.get_partner() is not None:
                 person.get_partner().set_children(children)
             for child in children:

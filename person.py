@@ -7,6 +7,7 @@ class Person:
         self.year_died=year_died
         self.partner=None
         self.children=[]
+        self.children_created = False
 
     # getters
     def get_name(self):
@@ -39,3 +40,5 @@ class Person:
         self.partner=partner
     def set_children(self, children):
         self.children=children
+    def set_children_created(self, children_created):
+        self.children_created=children_created
