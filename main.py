@@ -4,6 +4,7 @@ MENU = """Are you interested in:
 (T)otal number of people in the tree
 Total number of people in the tree by (D)ecade
 (N)ames duplicated
+(Q)uit
 > """
 def main():
     print("Reading files...")
@@ -32,6 +33,7 @@ def main():
         else:
             if choice in {"Q", "QUIT", "EXIT"}:
                 break
+            print("Bad Input. Please choose one of the options in Menu:")
             continue
 if __name__ == "__main__":
     main()
